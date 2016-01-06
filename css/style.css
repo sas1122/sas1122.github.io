@@ -1,0 +1,109 @@
+.banner {
+	text-align: center;
+	height: 200px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+}
+
+.banner ul{
+	position: relative;
+	list-style-type: none;
+	text-align: center;
+}
+
+.menu {
+	position: relative;
+	margin-top: 10px;
+	background-color: black;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+
+.menu li{
+	display: block;
+	position: relative;
+	margin: 10px;
+	padding: 5px;
+	margin-top: 10px;
+	height: 10px;
+	display: inline;
+	text-align: center;
+	top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.opening{
+	display: block;
+	position: relative;
+	float: left;
+	font-size: 30px;
+	width: 550px;
+	color:black ;
+	top: 0px;
+	padding: 10px;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	/*background-image: url("http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408618840671/18839f21-608b-4acd-a2aa-a944db3e15e7-2060x1236.jpeg");*/
+
+}
+
+
+.Experience_list{
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style-type: none;
+	margin-left: 25px;
+	font-size:20px;
+	border: solid, white;
+}
+.Experience_list li{
+	display:block;
+	width: 80%;
+    position: relative;
+	padding: 50px;
+	margin: 10px;
+	float: left;
+	border-style: solid;
+	border-color: grey;
+}
+.experience-text{
+	position: relative;
+	padding: 10px;
+	vertical-align: middle; f
+}
+
+.menu img{
+	position: relative;
+	height: 180px;
+	width: 180px;
+	padding: 20px;
+	float: left;
+}
+
+
+.body img{
+	position: relative;
+	float: right;
+	top: -50px;
+}
+
+td img{
+	border: solid;
+	border-color:black;
+	padding: 0px;
+	margin: 0px;
+	height: 180px;
+	width: 180px;
+}
+
+
+
