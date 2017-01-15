@@ -81,6 +81,30 @@ body {
 	vertical-align: middle; f
 }
 
+.Projects_list{
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style-type: none;
+	margin-left: 25px;
+	font-size:20px;
+	border: solid, white;
+}
+.Projects_list li{
+	display:block;
+	width: 80%;
+    position: relative;
+	padding: 50px;
+	margin: 10px;
+	float: left;
+	border-style: solid;
+	border-color: grey;
+}
+.project-text{
+	position: relative;
+	padding: 10px;
+	vertical-align: middle; f
+}
+
 .menu img{
 	position: relative;
 	height: 180px;
@@ -105,5 +129,11 @@ td img{
 	width: 180px;
 }
 
+.Experience_list img{
+	padding: 5px;
+}
 
+.Projects_list img{
+	padding: 5px;
+}
 
