@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Website</title>
+  {{> head}}
+</head>
+<body>
+  {{> header}}
+  <div id="intro">
+    <div class="container-fluid" style="height: 400px">
+      Hi! I'm Shayaan. I'm an aspiring software developer/engineer looking for a fulltime position.
+    </div>
+  </div>
+  <div id="about">{{> about}}</div>
+  <div id="projects">{{> projects}}</div>
+  <div id="experience">{{> experience}}</div>
+  {{> scripts}}
+</body>
+</html>
