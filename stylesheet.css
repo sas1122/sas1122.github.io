@@ -24,18 +24,23 @@
   to{background-color: #FA255E;}
 }
 
+@keyframes hoverBlur{
+  0% {filter: None;}
+  100% {filter: blur(5px);}
+}
+
 .nav-item {
   /* text-decoration: none; */
   text-align: center;
   font-size: 20px;
 }
 
-a{
+.nav-item a{
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+.nav-item a:hover{
   text-decoration: none;
   color:#F8E5E5
 }
@@ -53,12 +58,19 @@ a:hover{
 }
 
 .name {
-  /* font-family:'Roboto Mono', monospace; */
-  /* font-family: 'Arimo', sans-serif; */
-  /* font-family: 'Quicksand', sans-serif; */
   font-family: 'Pacifico', cursive;
   vertical-align: middle;
   padding-top: 50px;
+}
+
+.name a{
+  text-decoration: none;
+  color:black;
+}
+
+.name a:hover{
+  text-decoration: none;
+  color:#FA255E;
 }
 
 div {
@@ -66,7 +78,107 @@ div {
 }
 
 img{
+  height: 64px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.heading{
+  text-align: center;
+}
+
+.project {
+  height: 200px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.project {
+  background: url("./images/SpaceBabyPreview.png");
+  background-size: cover;
+}
+
+/* .project:hover{
+  animation-name: hoverBlur;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+} */
+
+.proj-description{
+  background: None;
+}
+
+.proj-description{
+  display: None;
+}
+
+.proj-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+  cursor: pointer;
+}
+
+#thiswebsite{
+  display: none;
+}
+
+#checkup{
+  display: none;
+}
+
+#mlspotify{
+  display: none;
+}
+
+#findfolks{
+  display: none;
+}
+
+#spacebaby{
+  display: none;
+}
+
+#grammyrun{
+  display: none;
+}
+
+.proj-overlay .proj-panel {
+  text-align: center;
+  margin-top: 100px;
+  height: 350px;
+}
+
+.proj-overlay img{
+  width: auto;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.title{
+  font-family: 'Pacifico', cursive;
+  background-color: #FA255E;
+  height: 60px;
+}
+
+
+.proj-summary em{
+  color: #FA255E;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.proj-summary{
+  padding-top: 20px;
+  padding-left: 100px;
+  text-align: left;
+  font-size: 20px;
 }

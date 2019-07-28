@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="row navbar navbar-expand-lg">
-        <a href="#about"><div class="col nav-item">about</div></a>
+        <div class="col nav-item"><a href="#about">about</a></div>
         <div class="col nav-item"><a href="#projects">projects</a></div>
         <div class="col nav-item"><a href="#experience">experience</a></div>
         <div class="col nav-item">resume</div>
@@ -19,22 +19,31 @@
     <div class="bio">
       <div class="row">
         <div class="col-12 text-center name">
-          Shayaan Saiyed
+          <a href="#about">
+            Shayaan Saiyed
+          </a>
         </div>
       </div>
       <div class="row icons">
         <div class="col-4"></div>
         <div class="col-4">
           <div class="row">
-            <div class="col-4">
-              <img src="./icons/Github-Mark/PNG/Github-Mark-64px.png">
-            </div>
-            <div class="col-4">
-              <img src="./icons/LinkedIn/Black/In-Black-59px-R.png">
-            </div>
-            <div class="col-4">
-              <img height="60" src="./icons/Spotify/icons/01_RGB/02_PNG/Spotify_Icon_RGB_Black.png">
-            </div>
+              <div class="col-4 icon">
+                <a href="https://github.com/shayaansaiyed">
+                  <img src="./icons/GitHub-Mark/github.png" onmouseover="this.src='./icons/GitHub-Mark/githubhover.png'" onmouseout="this.src='./icons/GitHub-Mark/github.png'">
+                </a>
+              </div>
+              <div class="col-4 icon">
+                <a href="https://www.linkedin.com/in/shayaansaiyed/">
+                  <img src="./icons/LinkedIn/linkedin.png" onmouseover="this.src='./icons/LinkedIn/linkedinhover.png'" onmouseout="this.src='./icons/LinkedIn/linkedin.png'">
+                </a>
+              </div>
+              <div class="col-4 icon">
+                <a href="https://open.spotify.com/user/ssaiyed?si=bn4CM1euQhuhT7yKFpdxRw">
+                  <img height="60" src="./icons/Spotify/spotify.png" onmouseover="this.src='./icons/Spotify/spotifyhover.png'" onmouseout="this.src='./icons/Spotify/spotify.png'">
+                </a>
+              </div>
+    
           </div>
         </div>
         <div class="col-4"></div>
@@ -43,11 +52,86 @@
   </div>
   <div id="about" class="section container-fluid"><div id="intro">
   <div class="container-fluid" style="height: 400px">
-    Hi! I'm Shayaan. I'm an aspiring software developer/engineer looking for a fulltime position.
+    Hi! I'm Shayaan. I'm an aspiring software developer/engineer looking for a fulltime position. A little bit about myself
   </div>
 </div>
 </div>
-  <div id="projects" class="section container-fluid">This is where my projects will go
+  <div id="projects" class="section container-fluid">
+<div class="row">
+  <div class="col-12">
+    <h1 class="heading"> Projects </h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4">
+    <div class="project" id="checkuppreview" onclick="displaycheckup()">
+      <img src="./images/checkUp-logo-large.png">
+      <p> Website for storing medical documents and data. </p>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="project" id="spacebabypreview" onclick="displayspacebaby()">
+      <div class="proj-name">
+        <h1>Space Baby</h1>
+        Space Exploration Web App
+      </div>
+      <div class="proj-description">
+        This will be the description of the project.
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="project" id="thiswebsitepreview" onclick="displaythiswebsite()">
+      Project 3
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4">
+    <div class="project" id="grammyrunpreview" onclick="displaygrammyrun()">
+      Project 4
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="project" id="mlspotifypreview" onclick="displaymlspotify()">
+      Project 5
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="project" id="findfolkspreview" onclick="displayfindfolks()">
+      Project 6
+    </div>
+  </div>
+</div>
+
+<div class="proj-overlay" id="spacebaby">
+  <div class="proj-panel">
+    <div class="row proj-name">
+      <div class="col-12">
+        <h1 class="title">Space Baby</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 proj-summary">
+        Space Baby is an interactive web application that models the movement of the planets with accurate relative velocities that my team and I built at <em>HackHarvard 2016</em>.
+        <br><br><em>Technologies:</em> JavaScript, Babylon.js, HTML/CSS
+        <br><br><a href="">Link to application</a>
+      </div>
+      <div class="col-md-6 proj-img">
+        <img src="./images/SpaceBabyPreview.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="proj-overlay" id="checkup">
+  CHECKUP
+</div>
+
+<div class="proj-overlay" id="thiswebsite">THIS WEBSITE</div>
+<div class="proj-overlay" id="mlspotify">MLSPOTIFY</div>
+<div class="proj-overlay" id="findfolks">FIND FOLKS</div>
+<div class="proj-overlay" id="grammyrun">GRAMMY RUN</div>
 </div>
   <div id="experience" class="section container-fluid">This is where my experience will go
 </div>
